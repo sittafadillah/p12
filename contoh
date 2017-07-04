@@ -1,0 +1,28 @@
+#include <iostream>
+
+using namespace std;
+
+    int main(){
+    int jumlah;
+    int a=0;
+    int i;
+    int tambah=0;
+    float rata;
+
+cout<<"Masukan berapa indeksnya :";
+cin>>jumlah;
+
+    int nilai[jumlah];
+
+        for (i=0; i<jumlah; i++){
+        a++;
+        cout << "Masukan data ke- " << a << " : ";
+        cin >> nilai[i];
+        tambah=tambah+nilai[i];
+        rata=tambah/jumlah;
+        }
+        cout<<"Jumlahnya :"<<tambah<<endl;
+        cout<<"Rata-ratanya :"<<rata<<endl;
+
+      return 0;
+    }
